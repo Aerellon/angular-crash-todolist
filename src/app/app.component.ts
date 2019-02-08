@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-crash-todolist';
+
+  /*
+    title: string = 'angular-crash-todolist';
+  
+    constructor() {
+      this.changeTitle('New Title');
+    }
+  
+    changeTitle(title: string): void {
+      this.title = title;
+    }
+    */
 }
